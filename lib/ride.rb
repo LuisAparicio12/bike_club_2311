@@ -4,7 +4,7 @@ class Ride
         @name = hash[:name]
         @distance = hash[:distance]
         @loop = hash[:loop]
-        @terrain = [:terrain]
+        @terrain = hash[:terrain]
     end
 
     def loop?
