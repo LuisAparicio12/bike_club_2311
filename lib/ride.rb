@@ -18,5 +18,5 @@ class Ride
             @distance * 2
         end
     end
-    
+
 end
